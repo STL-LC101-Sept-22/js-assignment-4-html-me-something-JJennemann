@@ -5,11 +5,11 @@ body{
     
 }
 
-.container{
+/* .container{
     display:flex;
     flex-direction:column;
     margin: 0 auto;
-}
+} */
 
 .background{
     background: url(./images/cool-af.jpg);
