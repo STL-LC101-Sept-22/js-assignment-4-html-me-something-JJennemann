@@ -1,1 +1,173 @@
-/* Write your CSS here! */
+body{
+    font-family:'Courier New', Courier, monospace;
+   
+    
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    margin: 0 auto;
+}
+
+.background{
+    background: url(./images/cool-af.jpg);
+    background-repeat:no-repeat;
+    background-size: 100vw;
+    height:50vw;
+    display:flex;
+    flex-direction:column;
+    gap:180px;
+    justify-content:space-between;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:16px 50px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+header img{
+    width: 100px;
+    border-radius:50%;
+    animation: rotation 15s infinite linear;
+    border: solid;
+    border-color: #264653;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.header-text{
+    display:flex;
+    gap: 32px;
+    font-size: 24px;
+    width: 400px;
+    text-align:end;
+    font-weight:bold;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color:white; 
+}
+
+.welcome-section{
+    display:flex;
+    /* flex-direction:column; */
+    justify-content:center;
+   
+
+    padding:0px 150px;
+    
+    justify-content:center;
+    resize: none;
+    
+    /* border:solid; */
+}
+
+/* .welcome-section img{
+    width: 500px;
+    margin: 50px 0px 0px 25px;
+    border: solid;
+    border-color: #264653;
+    border-radius: 12px;
+} */
+
+#welcome-text{
+
+    
+    width:850px;
+    text-align:center;
+    font-weight:bold;
+    font-size: 20px;
+   -webkit-text-stroke: .2px white;
+   -webkit-text-fill-color:black;
+    
+  
+    /* border:solid; */
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    
+
+  
+
+}
+
+.seasons{
+    height: 250px;
+    width: 250px;
+    background-size: 250px 250px;
+    margin: 75px 16px 50px 16px;
+    border: solid;
+    border-color: #264653;
+    border-radius:12px;
+    
+}
+
+#spring{
+    background-image: url(./images/spring-button.png);
+}
+
+#summer{
+    background-image: url(./images/summer-button.png);
+}
+
+#fall{
+    background-image: url(./images/fall-button.png);
+}
+
+#winter{
+    background-image: url(./images/winter-button.png);
+}
+
+.newsletter-section{
+    display:flex;
+    justify-content: center;
+    margin:25px 250px;
+    background-color:#81b29a;
+    border-radius: 12px;
+    border-style:solid;
+    gap: 100px;
+    
+}
+
+.newsletter-content{
+    margin:25px;
+    
+}
+
+.newsletter-title{
+    font-size:20px;
+}
+
+.newsletter-text{
+    font-size:16px;
+}
+
+.sign-up{
+    margin:25px;
+    border-radius:12px;
+    background-color: #FFD7BA;
+    width: 125px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px 0px 0px;
+    font-size:12px;
+    
+
+    
+}
