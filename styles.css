@@ -1,6 +1,7 @@
 body{
     font-family:'Courier New', Courier, monospace;
-   
+    margin:8px;
+    display:block;
     
 }
 
@@ -170,4 +171,11 @@ footer{
     
 
     
+}
+
+#mainHeading{
+    color:red;
+}
+.funParagraph{
+    color:green;
 }
