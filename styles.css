@@ -84,7 +84,7 @@ header img{
 p{
 
     
-    width:850px;
+    width:66vw;
     text-align:center;
     font-weight:bold;
     font-size: 20px;
@@ -115,6 +115,14 @@ main{
     
 }
 
+a{
+/* display: inline-block; */
+position: relative;
+/* z-index: 1; */
+padding: 9em;
+/* margin: -2em; */
+}
+
 #spring{
     background-image: url(./images/spring-button.png);
 }
@@ -139,6 +147,7 @@ main{
     border-radius: 12px;
     border-style:solid;
     gap: 100px;
+    align-content:space-around;
     
 }
 
@@ -149,17 +158,24 @@ main{
 
 .newsletter-title{
     font-size:20px;
+    margin-bottom: 12px;
+    font-weight:bold;
 }
 
 .newsletter-text{
     font-size:16px;
+    
 }
 
 .sign-up{
-    margin:25px;
+    margin:auto;
+    margin-right: 50px;
     border-radius:12px;
     background-color: #FFD7BA;
-    width: 125px;
+    width: 225px;
+    height:50px;    
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
 }
 
 footer{
